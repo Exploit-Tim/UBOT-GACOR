@@ -67,7 +67,7 @@ async def _(client, inline_query):
 ᚗ peer_users: {users} users
 ᚗ peer_group: {group} group
 ᚗ start_uptime: {uptime}</blockquote>
-        <blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ 𝙸𝙿𝙰𝙽 ࿈ᣄ</b></blockquote>
+        <blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴊᴏɴᴀᴛʜᴀɴ ࿈ᣄ</b></blockquote>
 """
             await client.answer_inline_query(
                 inline_query.id,
