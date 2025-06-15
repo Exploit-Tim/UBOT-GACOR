@@ -21,18 +21,18 @@ async def loadPlugins():
     await bot.send_message(
         LOGS_MAKER_UBOT, 
        f"""                    
-<blockquote>» <b><u>[ɴᴏᴛ ғᴀᴜɴᴅ ᴜsᴇʀʙᴏᴛ ᴠ2](https://t.me/Tensjsndksnsknssk_bot)</u></b> ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :
-     <b>ɪᴅ : 7771303916</b>
-     <b> ɴᴀᴍᴇ : ɴᴏᴛ ғᴀᴜɴᴅ ᴜsᴇʀʙᴏᴛ ᴠ2
+<blockquote>» <b><u>[ᴜʟᴛʀᴀ ᴜsᴇʀʙᴏᴛ](https://t.me/ultraroidubot)</u></b> ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :
+     <b>ɪᴅ : 5870285414</b>
+     <b> ɴᴀᴍᴇ : ᴜʟᴛʀᴀ ᴜsᴇʀʙᴏᴛ
      <b>ᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs : {len(HELP_COMMANDS)}</b>
      <b>ᴛᴏᴛᴀʟ ᴘᴇɴɢɢᴜɴᴀ : {len(ubot._ubot)}</b>
-     <b>ᴜsᴇʀɴᴀᴍᴇ : @Tensjsndksnsknssk_bot</b></blockquote>
+     <b>ᴜsᴇʀɴᴀᴍᴇ : @ultraroidubot</b></blockquote>
 """,
    reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝐔𝐒𝐄𝐑𝐁𝐎𝐓", url="t.me/Notfaunduserbot_bot"),
-                    InlineKeyboardButton("𝐂𝐇𝐀𝐍𝐄𝐋", url="https://t.me/abaoutme1"),
+                    InlineKeyboardButton("𝐔𝐒𝐄𝐑𝐁𝐎𝐓", url="t.me/ultraroidubot"),
+                    InlineKeyboardButton("𝐂𝐇𝐀𝐍𝐄𝐋", url="https://t.me/lokontolya"),
                 ],
             ]
         ),
