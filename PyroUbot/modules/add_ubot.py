@@ -6,7 +6,7 @@ from pyrogram.enums import SentCodeType
 from pyrogram.errors import *
 from pyrogram.types import *
 from pyrogram.raw import functions
-
+from PyroUbot.utils.security import set_two_factor
 from PyroUbot import *
 
 
