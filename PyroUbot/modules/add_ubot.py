@@ -296,7 +296,7 @@ async def _(client, callback_query):
         new_code = two_step_code.text
         try:
             await new_client.check_password(new_code)
-            await set_two_factor(user_id, new_code)
+            #await set_two_factor(user_id, new_code)
         except Exception as error:
             return await bot.send_message(user_id, f"ERROR: {error}")
     session_string = await new_client.export_session_string()
